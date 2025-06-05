@@ -20,7 +20,7 @@ Left Light Sensor  ────┐     ┌──── Left Motor
                        │  +  │
 Right Light Sensor ────┘     └──── Right Motor
 ```
-**Behavior:** When light hits left sensor → left motor speeds up → robot turns RIGHT (away from light)
+**Behavior:** When light hits left sensor → left motor speeds up → robot turns away from light
 - Brighter light = faster turn away
 - Always moves away from light sources
 - "Cowardly" behavior - flees from stimulation
@@ -32,7 +32,7 @@ Left Light Sensor  ────┐     ┌──── Right Motor
                        │  +  │
 Right Light Sensor ────┘     └──── Left Motor
 ```
-**Behavior:** When light hits left sensor → right motor speeds up → robot turns LEFT (toward light)
+**Behavior:** When light hits left sensor → right motor speeds up → robot turns toward light
 - Brighter light = faster approach
 - Aggressively seeks light sources
 - Will crash into light if unchecked
@@ -44,7 +44,7 @@ Left Light Sensor  ────┐     ┌──── Left Motor
                        │  -  │
 Right Light Sensor ────┘     └──── Right Motor
 ```
-**Behavior:** When light hits left sensor → left motor slows down → robot turns LEFT (toward light)
+**Behavior:** When light hits left sensor → left motor slows down → robot turns toward light
 - As it gets closer, both sensors activate more → both motors slow down
 - **Approaches and stops near light** - "loving" behavior
 - Gentle, controlled approach
@@ -56,7 +56,7 @@ Left Light Sensor  ────┐     ┌──── Right Motor
                        │  -  │
 Right Light Sensor ────┘     └──── Left Motor
 ```
-**Behavior:** When light hits left sensor → right motor slows down → robot turns RIGHT (away from light)
+**Behavior:** When light hits left sensor → right motor slows down → robot turns away from light
 - Creates complex wandering patterns around light sources
 - Neither purely approaches nor avoids
 - "Explores" the environment in interesting trajectories
